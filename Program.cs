@@ -7,20 +7,28 @@
             // Create instances of each class
             GameCharacter hero = new GameCharacter("Ki11_M3");
             Inventory backpack = new Inventory(); // capacity of 20
-            //PowerUp speedBoost = new PowerUp("Speed", 10.0f);
+            PowerUp speedBoost = new PowerUp("Speed", 10.0f);
 
             // Test for GameCharacter
             hero.Health = 100;  // Should work
             hero.Health = -50;  // Should be prevented
             hero.Health = 550;  // Should be prevented
-            Console.WriteLine(hero.Name + " " + hero.IsAlive);  // Should be true
+            Console.WriteLine(hero.Name + " living? : " + hero.IsAlive);  // Should be true
             hero.Health = 0; //should work
-            Console.WriteLine(hero.Name + " " + hero.IsAlive); //should be false
+            Console.WriteLine(hero.Name + " living? : " + hero.IsAlive); //should be false
 
             //Test for Inventory
             backpack.Gold = 1000; // should work
             backpack.Gold = -10; // should not work
-            Console.WriteLine(hero.Name + " Has " + backpack.Gold + "gold");
+            Console.WriteLine(hero.Name + " has " + backpack.Gold + " gold"); // should be 1000
+            backpack.ItemCount = 10; // should work (with default 20 capasity)
+            backpack.ItemCount = backpack.Capacity + 10; // should not work 
+            Console.WriteLine(hero.Name + " has " + backpack.ItemCount + " items"); // should be 10 
+            Console.WriteLine("Is bag full? : " + backpack.IsFull + " " + backpack.ItemCount + $"/{backpack.Capacity} items"); // should be false
+            backpack.ItemCount = backpack.Capacity;
+            Console.WriteLine("Is bag full? : " + backpack.IsFull + " " + backpack.ItemCount + $"/{backpack.Capacity} items"); // should be true
+
+            // test for Powerup
 
         }
     }
@@ -130,10 +138,22 @@
                 }
             }
         }
+
+        public bool IsFull
+        {
+            get
+            {
+                if (ItemCount == Capacity)
+                {
+                    return true;
+                }
+                else { return false; }
+            }
+        }
     }
 
     public class PowerUp
     {
-        // TODO: Implement properties as specified
+        
     }
 }

@@ -12,3 +12,4 @@ C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Prope
 C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\Properties & Encapsulation Assignment.pdb
 C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\Properties & Encapsulation Assignment.genruntimeconfig.cache
 C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\ref\Properties & Encapsulation Assignment.dll
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\Properties & Encapsulation Assignment.sourcelink.json
