@@ -29,7 +29,7 @@
             Console.WriteLine("Is bag full? : " + backpack.IsFull + " " + backpack.ItemCount + $"/{backpack.Capacity} items"); // should be true
 
             // test for Powerup
-
+            Console.WriteLine(hero.Name + " was given " + speedBoost.Power + " for " + speedBoost.Duration);
         }
     }
 
@@ -154,6 +154,23 @@
 
     public class PowerUp
     {
-        
+        //these are the main holders for the name of the boost, and the durration
+        private string power;
+        private float duration;
+
+        //these are here so i can reference them in the WriteLine's
+        public string Power { get { return power; } }
+        public float Duration { get { return duration; } }
+
+        //this is what is geting the name and durration from outside the class
+        public PowerUp(string Power = "Boost", float Duration = 5.0f)
+        {
+            power = Power;
+
+            if (Duration < 0)
+            {
+                Duration = 0;
+            }
+        }
     }
 }
