@@ -30,6 +30,7 @@
 
             // test for Powerup
             Console.WriteLine(hero.Name + " was given " + speedBoost.Power + " for " + speedBoost.Duration);
+            Console.WriteLine(speedBoost.Power + " active : " + speedBoost.IsActive);
         }
     }
 
@@ -58,7 +59,7 @@
                 }
                 else if (value > 100)
                 {
-                    return; // prevetns values over maximum.
+                    return; // prevents values over maximum.
                 }
                 else
                 {
@@ -72,11 +73,12 @@
         {
             get
             {
+                //If health is greater than 0 alive = true
                 if (health > 0)
                 {
                     return true;
                 }
-
+                // ealse you are dead
                 else return false;
             }
         }
@@ -167,9 +169,19 @@
         {
             power = Power;
 
-            if (Duration < 0)
+            duration = Duration;
+
+            if (duration < 0)
             {
-                Duration = 0;
+                duration = 0;
+            }
+        }
+
+        public bool IsActive
+        {
+            get
+            {
+                return duration > 0;
             }
         }
     }
