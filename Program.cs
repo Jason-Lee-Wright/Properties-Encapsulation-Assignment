@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             // Create instances of each class
-            GameCharacter hero = new GameCharacter("Ki11_M3");
+            GameCharacter hero = new GameCharacter("Mario");
             Inventory backpack = new Inventory(); // capacity of 20
             PowerUp speedBoost = new PowerUp("Speed", 10.0f);
 
