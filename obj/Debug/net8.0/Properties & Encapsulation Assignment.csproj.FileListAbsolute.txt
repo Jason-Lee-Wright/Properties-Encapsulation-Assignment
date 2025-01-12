@@ -1,0 +1,14 @@
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\bin\Debug\net8.0\Properties & Encapsulation Assignment.exe
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\bin\Debug\net8.0\Properties & Encapsulation Assignment.deps.json
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\bin\Debug\net8.0\Properties & Encapsulation Assignment.runtimeconfig.json
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\bin\Debug\net8.0\Properties & Encapsulation Assignment.dll
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\bin\Debug\net8.0\Properties & Encapsulation Assignment.pdb
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\Properties & Encapsulation Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\Properties & Encapsulation Assignment.AssemblyInfoInputs.cache
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\Properties & Encapsulation Assignment.AssemblyInfo.cs
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\Properties & Encapsulation Assignment.csproj.CoreCompileInputs.cache
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\Properties & Encapsulation Assignment.dll
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\refint\Properties & Encapsulation Assignment.dll
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\Properties & Encapsulation Assignment.pdb
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\Properties & Encapsulation Assignment.genruntimeconfig.cache
+C:\Jason Projects\Semester two\repos\Properties & Encapsulation Assignment\Properties & Encapsulation Assignment\obj\Debug\net8.0\ref\Properties & Encapsulation Assignment.dll

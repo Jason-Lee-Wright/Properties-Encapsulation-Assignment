@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Properties & Encapsulation Assignment/1.0.0": {
+        "runtime": {
+          "Properties & Encapsulation Assignment.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Properties & Encapsulation Assignment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
